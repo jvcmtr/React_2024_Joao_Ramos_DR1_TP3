@@ -1,0 +1,142 @@
+Tarefa 01 Desenvolvendo Layout Mobile-First
+
+Crie um layout complexo envolvendo o uso de flexbox nos elementos, adotando a abordagem mobile-first e garantindo que a página seja responsiva e adaptável a resolução de tablet e desktop.
+
+Trabalhe com um arquivo html para estrutura, um arquivo css para estilização e um arquivo javascript para resposta a interação do menu.
+Sua página deve conter os seguintes elementos principais:
+Cabeçalho (Header): Um cabeçalho contendo uma barra de navegação, com links para as seções "Início", "Serviços", "Sobre" e "Contato". Estes links apontam para seções na própria página.
+Main Content: Uma seção principal main que conterá três colunas:
+Coluna Esquerda: Uma coluna com links de navegação adicionais ou informações adicionais.
+Coluna Central: Uma área de conteúdo principal onde você pode colocar um texto ou imagens.
+Coluna Direita: Uma coluna que pode conter widgets ou informações secundárias.
+Rodapé (Footer): Um rodapé com informações de direitos autorais e links para redes sociais.
+Estilização Mobile-First (CSS):
+No arquivo CSS, aplique a abordagem mobile-first, começando pelos estilos para telas pequenas (smartphones):
+Estilo para Navbar: A navbar deve ser exibida verticalmente (links empilhados) para telas pequenas.
+Layout de Colunas: Para telas pequenas, as três colunas do main devem ser exibidas em uma única coluna (empilhadas verticalmente).
+Espaçamento: Adicione espaçamento (padding) para que os elementos não fiquem colados uns aos outros. Opcionalmente, você poderá usar as propriedades de gap.
+Tarefa 02 Estilização para telas maiores (Media Queries)
+
+Utilize media queries para ajustar o layout para telas maiores (tablets e desktops):
+
+Navbar: Em telas maiores, a navbar deve ser exibida horizontalmente, com os links alinhados à direita.
+Layout de Colunas: Em tablets, as colunas esquerda e direita devem ser exibidas uma ao lado da outra, com a coluna central ocupando a maior parte do espaço. Em desktops, as três colunas devem ser exibidas em um layout de três colunas.
+Ajustes Finais: Adicione ajustes de margens, fontes e espaçamentos para garantir uma boa legibilidade e usabilidade em diferentes dispositivos.
+Estilos aninhados em componentes
+Tarefa 03 Aplicando inline styles em componentes React
+
+Crie um projeto com componentes React, sendo:
+
+Componente principal, App.js, onde os outros componentes serão renderizados.
+Componente Card.js e Button.js.
+Estilize o componente Card.js com estilos inline:
+Utilize inline styles para estilizar o cartão com borda, sombra, padding, e um layout flexível.
+Estilize o componente Button.js com estilos inline:
+Utilize inline styles para estilizar o botão com uma cor de fundo, cor do texto, padding, e border-radius.
+Tarefa 04 Aplicando inline styles em componentes React
+
+Crie um projeto com componentes React, sendo:
+
+Crie um novo arquivo chamado TextoEstilizado.js.
+Este arquivo conterá um componente React que exibe um parágrafo de texto com estilos aplicados inline.
+O componente funcional chamado TextoEstilizado terá inline styles para estilizar o texto com uma cor de fundo clara, cor de texto escura, padding e fonte personalizada.
+O parágrafo deve exibir o texto: "Este é um texto estilizado usando inline styles em React."
+Tarefa 05 Componentes e JSX no React com Design Mobile First
+
+Crie componentes básicos em React usando a sintaxe JSX, e aplique um design mobile first que seja otimizado para telas com largura de até 576px.
+
+Crie um novo projeto React.
+Crie dois componentes React: um componente chamado Header e outro chamado Footer. Ambos devem ser componentes de função que retornam um bloco de código JSX.
+O Header deve exibir um título e o Footer deve exibir uma mensagem de rodapé.
+Estilize os componentes no arquivo CSS (import css) para que a interface seja otimizada inicialmente para dispositivos móveis (largura de até 576px).
+Importe e utilize esses componentes no componente principal App para que eles sejam exibidos na página.
+Tarefa 06 Componentes e JSX no React com Design Mobile First - Continuação
+
+Continue com o código do projeto anterior. Crie um componente chamado Main. Exiba-o entre o Header e o Footer.
+
+Mantenha o foco em mobile first.
+O novo componente Main também deve ser componente de função que retorna um bloco de código JSX.
+Insira parágrafos com textos e insira imagens.
+Estilize o componente no arquivo CSS criado anteriormente.
+Importe e utilize esse componente no componente principal App para que ele seja exibido na página.
+Tarefa 07 Componentes e JSX no React com Design Mobile First - Continuação
+
+Continue com o código do projeto anterior. Estilize no CSS, breakpoints para tratar das exibições em telas maiores. Para tablet, a partir de 768px. Para Desktop, a partir de 1200px. 
+
+Tarefa 08 Módulos de estilo
+
+Crie um projeto React que usará módulos de estilo.
+
+Crie um novo projeto React.
+Crie um componente React chamado Card que utilizará um módulo de estilo CSS para estilização.
+Crie um módulo de estilo CSS chamado Card.module.css na pasta src. Esse módulo de estilo conterá classes CSS específicas para o componente Card, como imagem, título e descrição.
+Estilize o componente Card usando o módulo de estilo CSS criado. Aplique estilos como bordas, sombras, espaçamento interno, e ajuste de fontes.
+Importe e utilize o componente Card no componente principal App para exibir o resultado estilizado na página.
+Tarefa 09 Módulos de estilo - Continuação
+
+Continue o exercício anterior, criando um novo componente chamado Button.
+
+Esse componente também deverá usar um módulo de estilo CSS (Button.module.css) para organização e escopo de estilos.
+Insira estilização para o elemento button e suas variações de estado, como hover e active, por exemplo. 
+Importe o componente para o seu projeto.
+Tarefa 10 Módulos de estilo 
+
+Vamos criar um projeto que utilizará módulos de estilo em três componentes diferentes. Módulos de estilo são utilizados para manter seus estilos organizados e específicos para cada componente, evitando conflito de classes e melhorando a manutenção do seu código. 
+
+Crie um novo projeto React, com três componentes React: Header, Content e Footer. Cada um deve ser estilizado com seu próprio módulo de estilo CSS.
+Crie módulos de estilo CSS chamados Header.module.css, Content.module.css e Footer.module.css na pasta src. Cada módulo de estilo conterá classes CSS específicas para seu respectivo componente.
+Estilize cada componente usando seu módulo de estilo CSS correspondente. Aplique estilos como cores de fundo, margens, espaçamento interno, e ajuste de fontes.
+Importe e utilize esses componentes no componente principal App para que eles sejam exibidos na página, com cada componente mostrando seus próprios estilos.
+Tarefa 11 Estilização Global com CSS no React (Grupo de até 4 pessoas)
+
+Desenvolva um projeto e aplique estilos globais em uma aplicação React utilizando arquivos CSS. 
+
+Crie um novo projeto React.
+Crie um arquivo chamado global.css na pasta src do seu projeto.
+Defina estilos globais que afetam toda a aplicação. Exemplo: estilos para o body, h1, parágrafos, dentre outros.
+Import o arquivo global.css no React.
+No arquivo App.js, crie uma estrutura simples que se beneficie dos estilos globais definidos.
+Modifique o arquivo global.css para adicionar mais estilos globais e personalize o visual da aplicação de acordo com seu gosto. Teste cores, fontes, espaçamentos, etc.
+Tarefa 12 Estilização Global com CSS no React (Grupo de até 4 pessoas)
+
+Continue o projeto anterior. 
+
+Crie um arquivo chamado styles.css na pasta src do seu projeto.
+Defina estilos com escopo voltado para o componente App.js.
+Importe o arquivo styles.css no seu componente principal, App.js.
+No arquivo App.js, crie uma estrutura simples com elementos que utilizarão classes apropriadas para alguns seletores inseridos no App.js. 
+Tarefa 13 Estilização Global com CSS no React (Grupo de até 4 pessoas)
+
+Continue o projeto anterior. 
+
+Agora, crie um componente menu para elementos de navegação que apontarão para Ids na própria interface do seu projeto, simulando uma single page application. 
+Crie um arquivo chamado menu.css na pasta src do seu projeto.
+Defina estilos com escopo voltado para o componente Menu.js.
+Sua navegação deve estar preparada para mobile-first, depois, configurada para exibição em dispositivos de até 992px, e por fim, uma terceira visualização para dispositivos maiores que 992px.
+Até 576px, cada item de menu ocupará a largura total da página. Até 992px, itens de menu serão disponibilizados na horizontal, lado a lado, sem espaçamento entre eles. Em telas acima de 992px, itens de menu devem estar disponíveis na horizontal, distribuídos na largura da página, com espaços regulares entre eles.
+Importe o arquivo menu.css no seu componente Menu.js.
+Agora no App.js, importe e utilize o componente Menu. 
+Tarefa 14 Estilização Global com CSS no React (Grupo de até 4 pessoas)
+
+Continue o projeto anterior. 
+
+Defina um componente de destaque para o seu projeto, um hero. 
+Para tanto, crie um arquivo para o componente Hero na pasta src do seu projeto.
+Faça a chamada de imagem responsiva, com as técnicas aprendidas em aula, privilegiando mobile, tablet e desktop na estilização (Sua navegação deve estar preparada para mobile-first, depois, configurada para exibição em dispositivos de até 992px, e por fim, uma terceira visualização para dispositivos maiores que 992px).
+Defina estilos com escopo voltado para o componente Hero.
+Vincule o css ao componente e, no App.js, importe e utilize o componente Hero. 
+Tarefa 15 Estilização Global com CSS no React (Grupo de até 4 pessoas)
+
+Continue o projeto anterior. 
+
+Crie um componente Main. Defina a estilização necessária.
+Depois, importe o componente de destaque para o seu projeto, um hero, dentro do Main. 
+Vincule o css ao componente e, no App.js, importe e utilize o componente Main. 
+Tarefa 16 Estilização Global com CSS no React (Grupo de até 4 pessoas)
+
+Continue o projeto anterior. 
+
+Crie um componente de Footer.
+Detalhe o nome dos membros do grupo com um avatar ao lado, e seu contato Linkedin.
+Defina estilos com escopo voltado para o componente Footer.
+Vincule o css ao componente e, no App.js, importe e utilize o componente Footer no seu projeto. 
