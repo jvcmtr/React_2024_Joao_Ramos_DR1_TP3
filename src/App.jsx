@@ -1,9 +1,20 @@
 import './App.css' 
+import Footer from './layout_coponents/Footer.jsx'
+import Header from './layout_coponents/Header.jsx'
+import MainContent from './layout_coponents/MainContent.jsx'
+import Content from './layout_coponents/Content';
+import LeftNavigation from './layout_coponents/LeftNavigation';
+
 
 export default function App() {
 return (
   <div className="app">
-    <h1 class='title'> João Cícero Mobile-First TP1</h1>
+    <Header className='primary'/>
+    <MainContent className='terciary'>
+      <LeftNavigation className='secondary '/>
+      <Content className='terciary'/>
+    </MainContent>
+    <Footer className='secondary'/>
   </div>
-)
+  )
 }

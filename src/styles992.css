@@ -1,0 +1,8 @@
+@media(min-width: 768px){
+    .MainContent{
+        flex-direction: row;
+    }
+    .LeftNavigation{
+        width: 20vw;
+    }
+}

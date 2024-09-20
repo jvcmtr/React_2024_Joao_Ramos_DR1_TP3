@@ -1,0 +1,52 @@
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 85vh;
+}
+
+.MainContent{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.LeftNavigation{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+
+    align-items: stretch;
+    justify-content: center;
+    gap: 10px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+
+.Footer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 30vh;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10vw;
+    height: 30vh;
+    padding: 10px;
+}

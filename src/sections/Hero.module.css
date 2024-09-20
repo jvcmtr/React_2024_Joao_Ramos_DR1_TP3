@@ -1,0 +1,17 @@
+.hero {
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*uc_iyOVFRAa7kvA6dOEB7Q.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.heroContent {
+    position: relative;
+    color: white; 
+    text-align: center;
+    z-index: 2; 
+    padding: 20px;  
+}

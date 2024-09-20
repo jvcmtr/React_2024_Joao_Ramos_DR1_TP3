@@ -1,3 +1,47 @@
+*{
+  --p: #fff;
+  --pContrast: #404040;
+  --pAction: #1010bb;
+
+  --s: #202020  ;
+  --sContrast: #fff;
+  --sAction: #ff8000;
+
+  --t: #aaaaff;
+  --tContrast: #000;
+  --tAction: #ff9020;
+
+  --highlight: #ff8000;
+  --inactiveHighlight: #ff8000;
+
+  --largePadding: 40px;
+  --smallPadding: 10px  
+}
+.html{
+  scroll-behavior: smooth;
+}
+
+@media(pointer: coarse){
+  *{
+    --inactiveHighlight: var(--highlight);
+  }
+}
+
+.terciary{
+  color: var(--tContrast);
+  background-color: var(--t);
+}
+
+.secondary{
+  color: var(--sContrast);
+  background-color: var(--s);
+}
+
+.primary{
+  color: var(--pContrast);
+  background-color: var(--p);
+} 
+
 
 body{
   margin:0;
